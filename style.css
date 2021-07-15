@@ -1,0 +1,187 @@
+/* common */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* main */
+main{
+    justify-content: center;
+    align-items: center;
+    
+}
+/* menu */
+.header-menu{
+    background-color:rgb(101, 23, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+.menu{
+    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px ;
+    font-size: 1em;
+
+}
+.login{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(253, 8, 143);
+    padding: 10px 20px ;
+}
+/* Heading */
+.heading{
+    
+    
+}
+.container{
+    width: 100%;
+    background-color: rgb(101, 23, 247);
+    display: flex;
+    justify-content: center;
+   
+    white-space: nowrap;
+    margin-bottom: 20px;
+   
+    
+}
+.heading-name{
+    color: white;
+    width: 485px;
+    height: 230px;
+    font-size: 3em;
+}
+.heading-name:hover{
+    color: yellow;
+}
+.banner img{
+    height: 565px;
+    width: 438px;
+    padding: 20px;
+
+
+}
+.banner:hover img{
+    background-color: rgba(31, 28, 255, 0.493);
+    transform: rotate(20deg)
+}
+/* Watch-Button */
+.watch-live a{
+    color: white;
+    background-color: rgb(253, 8, 143);
+    text-decoration: none;
+    padding: 10px 20px;
+    }
+    /* Players */
+    .gallery{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+    }
+    .blog-info{
+        color: rgb(0, 0, 0);
+        padding: 10px;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       grid-column-gap: 30px;
+       
+        
+    }
+    .blog{
+        width: 330px;
+        box-shadow: 10px 8px 20px 10px;
+        margin-bottom: 25px;
+       margin-top: 30px;
+
+        
+    }
+   .blog .thumbnail img{
+    width: 300px;
+    height: 256px;
+   }
+   /* Last Section */
+   .lastsection{
+       display: flex;
+       justify-content: center;
+   }
+   .watch-info{
+    width: 469px;
+    height: 309px;
+    margin right: 20px
+    ;
+   }
+   .watch-now a{
+    color: white;
+    background-color: rgb(253, 8, 143);
+    text-decoration: none;
+    padding: 10px 20px;
+
+   }
+   .highlight{
+       display: flex;
+       margin-top: 165px;
+       
+
+   }
+   .watchimg img{
+    width: 567px;
+    height: 427px;
+    margin left: 20px
+    ;
+   }
+   /* Bottom Style */
+   .bottom{
+       display: flex;
+       justify-content: center;
+       margin-top: 140px;
+      
+       
+      
+   }
+.football img{
+    width: 483.87px;
+height: 110px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    
+}
+.icongap{
+    margin-right: 20px;
+    font-size: 2em;
+}
+/* footeer */
+footer{
+    text-align: center;
+}
+/* media queries */
+/* Mobile Devices */
+@media only screen and (max-width:668px) {
+    .container{
+        width: 100%;
+        
+    }
+    .heading{
+        width: 100%;
+    }
+
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bottom{
+
+    }
+    
+}
+    
